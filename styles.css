@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.search {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.doctors-list {
+  padding: 5% 12%;
+}
+
+.doctor {
+  display: flex;
+  text-align: center;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  display: inline-block;
+  vertical-align: center;
+}
+.img {
+  width: 50%;
+  height: auto;
+}
+.image {
+  margin: 1rem;
+  text-align: right;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child-content {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+.content h2,
+p,
+h4,
+h5 {
+  text-align: left;
+}
+
+.btn {
+  background: #000000;
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  text-shadow: 0px 0px 3px #53d0d9;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 6px 8px 8px 7px;
+  border: solid #2291d6 0px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #afabab;
+  text-decoration: none;
+}
+.head {
+  text-align: center;
+  padding: 1rem 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fefefe;
+  background: #000000;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
